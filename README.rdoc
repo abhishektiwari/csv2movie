@@ -1,0 +1,25 @@
+== OpenHTS
+
+CSV2Movie takes a csv file as input and creates movies by stitching the plotted images  frame by frame. Each image plot will become a single frame in the movie. CSV2Movie  requires mencoder or ffmpeg to create the light weight movies for the csv file data. User needs to provide the  command-line arguments and either short- or long-style flags to specify various options.
+
+== Dependencies
+
+* Python 2.5 or higher
+* matplotlib
+* NumPy
+* mencoder (http://www.mplayerhq.hu/) or
+* ffmpeg (http://www.ffmpeg.org/)
+
+
+
+== Help & Documentation
+For more information about installing, running and configuring OpenHTS
+including a list of known issues and troubleshooting information, 
+refer to: http://wiki.github.com/abhishektiwari/csv2movie/
+
+
+== Authors and copyright
+© 2010 Abhishek Tiwari (abhishek@abhishek-tiwari.com)
+
+The software included in this package is copyrighted freeware
+distributed under the terms and conditions as specified in file LICENSE.
